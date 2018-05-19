@@ -1,0 +1,108 @@
+@import './variables';
+
+@font-face {
+  font-family: 'King Super Grotesk Pro';
+  src: url('./assets/king_supergroteskoffcpro-webfont.woff') format('woff'),
+    url('./assets/king_supergroteskoffcpro-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'King Super Grotesk Pro';
+  src: url('./assets/king_supergroteskoffcpro-medium-webfont.woff')
+      format('woff'),
+    url('./assets/king_supergroteskoffcpro-medium-webfont.ttf')
+      format('truetype');
+  font-weight: bold;
+}
+
+input,
+textarea,
+keygen,
+select,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 1px 1px 4px $green;
+}
+
+::placeholder {
+  color: $green;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: 'King Super Grotesk Pro', sans-serif;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  color: $black-60;
+  box-sizing: border-box;
+  background: $white;
+  font-size: 1rem;
+  overscroll-behavior-y: none;
+
+  &:before {
+    pointer-events: none;
+    content: '';
+    background: url('./assets/stripe_wideTopRight_orange.svg') no-repeat;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 250px;
+    transform: scaleY(1.5);
+    background-size: cover;
+    z-index: 5;
+  }
+
+  &:after {
+    content: '';
+    background: url('./assets/footer-shape-bg.svg') no-repeat;
+    position: fixed;
+    z-index: 16;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+    background-size: cover;
+    pointer-events: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: $unit * 2;
+  color: $black-60;
+}
+
+h1 {
+  font-size: $heading1_size;
+}
+
+h2 {
+  font-size: $heading2_size;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+a {
+  cursor: pointer;
+  outline: 0;
+  font-family: inherit;
+}

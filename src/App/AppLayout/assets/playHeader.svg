@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+     viewBox="0 0 2000 151" width="100%" height="100%">
+    <defs>
+        <style>
+            .cls-1{
+                fill: rgba(0,0,0,0.8);
+                filter: url(#Blur);
+            }
+            .cls-2{
+                fill:url(#radial-gradient);
+            }
+        </style>
+        <filter id="Blur" x="-25%" y="-25%" width="150%" height="150%" name="Blur">
+            <feGaussianBlur stdDeviation="6"/>
+        </filter>
+        <radialGradient id="radial-gradient" cx="1000" cy="69.68828" r="708.82172" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fefdfe"/>
+            <stop offset="1" stop-color="#f0eadf"/>
+        </radialGradient>
+    </defs>
+    <title>playHeader</title>
+    <g class="cls-1">
+        <path d="M2000,125Q1001.68756,153.73964,0,125V0H2000V125Z"/>
+    </g>
+    <path class="cls-2" d="M2000,125Q1001.68756,153.73964,0,125V0H2000V125Z"/>
+</svg>

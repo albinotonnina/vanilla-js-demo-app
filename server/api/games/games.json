@@ -1,0 +1,830 @@
+{
+  "games": [
+    {
+      "name": "8-Ball Pool",
+      "short": "eightballpool",
+      "url": "/spel/sportspel/8-ball-pool/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "9-Ball Pool",
+      "short": "nineballpool",
+      "url": "/spel/sportspel/9-ball-pool/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Abracadabra",
+      "short": "abracadabra",
+      "url": "/spel/strategispel/abracadabra/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Ace Solitaire",
+      "short": "acesolitaire",
+      "url": "/spel/kortspel/ace-solitaire/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "African Rainmaker",
+      "short": "african_rainmaker",
+      "url": "/spel/pusselspel/african-rainmaker/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Ali Baba",
+      "short": "ali_baba",
+      "url": "/spel/kortspel/ali-baba/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Amazon Speed",
+      "short": "amazon_survival_speed",
+      "url": "/spel/pusselspel/amazon-speed/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Amazon Survival",
+      "short": "amazon_survival",
+      "url": "/spel/pusselspel/amazon-survival/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Animal Parade",
+      "short": "animal_parade",
+      "url": "/spel/strategispel/animal-parade/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Aztec Drop",
+      "short": "aztecdrop",
+      "url": "/spel/strategispel/aztec-drop/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Backgammon",
+      "short": "backgammon",
+      "url": "/spel/strategispel/backgammon/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Bacteria Hysteria",
+      "short": "bacteriahysteria",
+      "url": "/spel/pusselspel/bacteria-hysteria/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "BB Bathtub",
+      "short": "bbbathtub",
+      "url": "/spel/actionspel/bb-bathtub/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Big Bang",
+      "short": "bigbang",
+      "url": "/spel/strategispel/big-bang/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Block Party",
+      "short": "block_party",
+      "url": "/spel/pusselspel/block-party/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Bomp Bomp",
+      "short": "bompbomp",
+      "url": "/spel/pusselspel/bomp-bomp/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Bomp Bomp Party",
+      "short": "bomp_bomp_party",
+      "url": "/spel/pusselspel/bomp-bomp-party/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Boneyard Bonanza",
+      "short": "boneyard_bonanza",
+      "url": "/spel/strategispel/boneyard-bonanza/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Brain Game",
+      "short": "braingame",
+      "url": "/spel/strategispel/braingame/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Bric-a-Brac",
+      "short": "bric_a_brac",
+      "url": "/spel/strategispel/bric-a-brac/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Brick Busterz",
+      "short": "demolitiongame",
+      "url": "/spel/pusselspel/brick-busterz/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Briscola King",
+      "short": "briscolaking",
+      "url": "/spel/kortspel/briscola-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Bubble Saga",
+      "short": "love_me_love_me_not",
+      "url": "/spel/actionspel/bubble-saga/?language\u003dsv",
+      "tags": "love me love me not,",
+      "hasBoosters": false
+    },
+    {
+      "name": "Bubble Witch",
+      "short": "bubble_witch",
+      "url": "/spel/pusselspel/bubble-witch/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Candy Crush",
+      "short": "candycrush",
+      "url": "/spel/pusselspel/candy-crush/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Carnival Shootout",
+      "short": "carnivalshootout",
+      "url": "/spel/actionspel/carnival-shootout/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Cat Corner",
+      "short": "catcorner",
+      "url": "/spel/strategispel/cat-corner/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Chain Reaction",
+      "short": "chain_reaction",
+      "url": "/spel/pusselspel/chain-reaction/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Circus Surprise",
+      "short": "circussurprise",
+      "url": "/spel/pusselspel/circus-surprise/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Cookie Rookie",
+      "short": "cookierookie",
+      "url": "/spel/strategispel/cookie-rookie/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Crescendo Catcher",
+      "short": "crescendo_catcher",
+      "url": "/spel/pusselspel/crescendo-catcher/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Crescendo Tempo",
+      "short": "crescendo_catcher_tempo",
+      "url": "/spel/pusselspel/crescendo-tempo/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Croco Loco",
+      "short": "croco_loco",
+      "url": "/spel/pusselspel/croco-loco/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Daisy Defender",
+      "short": "daisy_defender",
+      "url": "/spel/actionspel/daisy-defender/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Dart Duel",
+      "short": "dart",
+      "url": "/spel/sportspel/dart-duel/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Diamond Digger",
+      "short": "diamond_digger",
+      "url": "/spel/pusselspel/diamond-digger/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Dice King",
+      "short": "dice_king",
+      "url": "/spel/strategispel/dice-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Fairy Solitairy",
+      "short": "fairysolitairy",
+      "url": "/spel/kortspel/fairy-solitairy/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Farm King",
+      "short": "farm_king",
+      "url": "/spel/pusselspel/farm-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Fia med knuff",
+      "short": "ludo",
+      "url": "/spel/strategispel/fia-med-knuff/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Flash Diamond",
+      "short": "flash_diamond",
+      "url": "/spel/pusselspel/flash-diamond/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Four Seasons",
+      "short": "fourseasons",
+      "url": "/spel/pusselspel/four-seasons/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Freecell",
+      "short": "freecell",
+      "url": "/spel/kortspel/freecell/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Gin Rummy",
+      "short": "gin_rummy",
+      "url": "/spel/kortspel/gin-rummy/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "GoGo 21",
+      "short": "gogo21",
+      "url": "/spel/kortspel/gogo-21/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Goldfish Bowl",
+      "short": "goldfishbowl",
+      "url": "/spel/actionspel/goldfish-bowl/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Golf Solitaire",
+      "short": "golf_solitaire",
+      "url": "/spel/kortspel/golf-solitaire/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Gospo\u0027s Adventure",
+      "short": "gosposadventure",
+      "url": "/spel/strategispel/gosposadventure/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Graceful Jewels",
+      "short": "graceful_jewels",
+      "url": "/spel/actionspel/graceful-jewels/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Hearts",
+      "short": "hearts",
+      "url": "/spel/kortspel/hearts/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Hens\u0027 Defense",
+      "short": "hens_defense",
+      "url": "/spel/strategispel/hens-defense/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Hex Combo",
+      "short": "hexcombo",
+      "url": "/spel/strategispel/hex-combo/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Hidden Stories",
+      "short": "hiddenstories",
+      "url": "/spel/strategispel/hidden-stories/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Honey Combo",
+      "short": "honeycombo",
+      "url": "/spel/kortspel/honey-combo/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Hoop de Loop",
+      "short": "hoopdeloop",
+      "url": "/spel/actionspel/hoop-de-loop/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Hungry Animals",
+      "short": "hungryanimals",
+      "url": "/spel/actionspel/hungry-animals/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "I Love Treasure",
+      "short": "ilovetreasure",
+      "url": "/spel/pusselspel/i-love-treasure/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "I Scream Ice Cream",
+      "short": "iscream",
+      "url": "/spel/pusselspel/i-scream-ice-cream/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Itsy Bitsy Spider",
+      "short": "itsybitsyspider",
+      "url": "/spel/actionspel/itsy-bitsy-spider/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Jelly Swelly",
+      "short": "jelly_swelly",
+      "url": "/spel/pusselspel/jelly-swelly/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Jungle Bubble",
+      "short": "jungle_bubble",
+      "url": "/spel/pusselspel/jungle-bubble/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Jungle Rumble",
+      "short": "junglerumble",
+      "url": "/spel/pusselspel/jungle-rumble/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Jungle Speed",
+      "short": "jungle_bubble_speed",
+      "url": "/spel/pusselspel/jungle-speed/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Kalorie King",
+      "short": "kalorie_king",
+      "url": "/spel/actionspel/kalorie-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Katana Kaunto",
+      "short": "katana",
+      "url": "/spel/pusselspel/katana-kaunto/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Keyword",
+      "short": "keyword",
+      "url": "/spel/ordspel/keyword/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "King of Hearts",
+      "short": "hearts2012",
+      "url": "/spel/kortspel/king-of-hearts/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "King of Spades",
+      "short": "spades2012",
+      "url": "/spel/kortspel/king-of-spades/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "King Pin Bowling",
+      "short": "bowling",
+      "url": "/spel/sportspel/king-pin-bowling/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Kitty Boom",
+      "short": "kittyboom",
+      "url": "/spel/actionspel/kitty-boom/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Klick, Klack \u0026 Roll",
+      "short": "klickklackroll",
+      "url": "/spel/pusselspel/klick-klack-roll/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Klicker Fusion",
+      "short": "klickerklacker2",
+      "url": "/spel/pusselspel/klicker-fusion/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Letter Star",
+      "short": "letterstar",
+      "url": "/spel/ordspel/letter-star/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Letter Swap",
+      "short": "letter_swap",
+      "url": "/spel/ordspel/letter-swap/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Luxor",
+      "short": "luxor",
+      "url": "/spel/actionspel/luxor/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Magic Spinball",
+      "short": "magicspinball",
+      "url": "/spel/actionspel/magic-spinball/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Mahjong Golden Path",
+      "short": "mahjong_golden_path",
+      "url": "/spel/strategispel/mahjong-golden-path/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Mahjong Masquerade",
+      "short": "mahjongmasquerade",
+      "url": "/spel/strategispel/mahjong-masquerade/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Mahjong Treasure",
+      "short": "mahjongtreasure",
+      "url": "/spel/strategispel/mahjong-treasure/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Mahjong Wonderwall",
+      "short": "mahjong_wonderwall",
+      "url": "/spel/strategispel/mahjong-wonderwall/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Masquerade Maze",
+      "short": "masquerade_maze",
+      "url": "/spel/strategispel/masquerade-maze/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Match Blocks Speedtrap",
+      "short": "matchblocks_speed_trap",
+      "url": "/spel/pusselspel/match-blocks-speed-trap/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Midas Mahjong",
+      "short": "mahjong",
+      "url": "/spel/strategispel/midas-mahjong/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Midas Miner",
+      "short": "miner",
+      "url": "/spel/pusselspel/midas-miner/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Midas Solitaire",
+      "short": "solitaire",
+      "url": "/spel/kortspel/midas-solitaire/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Miner Speed",
+      "short": "midas_miner_speed",
+      "url": "/spel/pusselspel/miner-speed/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Model Studio",
+      "short": "topmodel",
+      "url": "/spel/strategispel/model-studio/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Monkey Quest",
+      "short": "monkey_quest",
+      "url": "/spel/pusselspel/monkey-quest/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Orchido ",
+      "short": "orchido",
+      "url": "/spel/pusselspel/orchido-/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Papa Pear",
+      "short": "papa_pear",
+      "url": "/spel/actionspel/papa-pear/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pepper Panic",
+      "short": "pepperpanic",
+      "url": "/spel/pusselspel/pepper-panic/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pet Rescue",
+      "short": "pet_rescue",
+      "url": "/spel/pusselspel/pet-rescue/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Polar Bear Bounce",
+      "short": "polarbearbounce",
+      "url": "/spel/actionspel/polar-bear-bounce/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pool King",
+      "short": "poolking",
+      "url": "/spel/sportspel/pool-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pop Painter",
+      "short": "poppainter",
+      "url": "/spel/actionspel/pop-painter/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Princess Peony",
+      "short": "princess_peony",
+      "url": "/spel/strategispel/princess-peony/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Puzzle Mana",
+      "short": "puzzle_mana",
+      "url": "/spel/pusselspel/puzzle-mana/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pyramid",
+      "short": "pyramid2010",
+      "url": "/spel/kortspel/Pyramid/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pyramid Quest",
+      "short": "pyramid_quest",
+      "url": "/spel/kortspel/pyramid-quest/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Pyramid Speed",
+      "short": "pyramidspeed",
+      "url": "/spel/kortspel/pyramid-speed/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Quiz Queen",
+      "short": "quizqueen",
+      "url": "/spel/ordspel/quiz-queen/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Rainbow Rescue",
+      "short": "rainbowrescue",
+      "url": "/spel/pusselspel/rainbow-rescue/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Royale 55",
+      "short": "royale55",
+      "url": "/spel/kortspel/royale-55/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Scopa King",
+      "short": "scopa",
+      "url": "/spel/kortspel/scopa-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Scrapbook Detective",
+      "short": "scrapbook_detective",
+      "url": "/spel/strategispel/scrapbook-detective/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Seashell Speed",
+      "short": "seashell_speed",
+      "url": "/spel/pusselspel/seashell-speed/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Seashell Squeeze",
+      "short": "seashell",
+      "url": "/spel/pusselspel/seashell-squeeze/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Silver Screen",
+      "short": "silverscreen",
+      "url": "/spel/pusselspel/silver-screen/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Solitaire Swing",
+      "short": "solitaire_swing",
+      "url": "/spel/kortspel/solitaire-swing/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Spider King",
+      "short": "spider_king",
+      "url": "/spel/kortspel/spider-king/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Storm Chaser",
+      "short": "storm_chaser",
+      "url": "/spel/pusselspel/storm-chaser/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Sudoku Sweep",
+      "short": "sudokusweep",
+      "url": "/spel/strategispel/sudoku-sweep/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Top Ace",
+      "short": "top_ace",
+      "url": "/spel/kortspel/top-ace/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Twist Me Silly",
+      "short": "twist_me_silly",
+      "url": "/spel/pusselspel/twist-me-silly/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Word Battle",
+      "short": "wordbattle",
+      "url": "/spel/ordspel/word-battle/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Word Link",
+      "short": "wordlink",
+      "url": "/spel/ordspel/word-link/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Word Seance",
+      "short": "wordseance",
+      "url": "/spel/ordspel/word-seance/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    },
+    {
+      "name": "Yo-yo Jackpot",
+      "short": "yoyo_jackpot",
+      "url": "/spel/actionspel/yo-yo-jackpot/?language\u003dsv",
+      "tags": "",
+      "hasBoosters": false
+    }
+  ]
+}
