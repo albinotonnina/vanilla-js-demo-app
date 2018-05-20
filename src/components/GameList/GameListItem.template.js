@@ -2,7 +2,7 @@ import { dom, setUIStatus, preloadImg } from "../../utilities/functions";
 
 const imagePath = "https://royal1.midasplayer.com/images/games/";
 
-const template = (game, styles) => {
+const template = ({ game, state, styles }) => {
   const gameImageUrl = `${imagePath}${game.short}/${game.short}_170x80.gif`;
 
   preloadImg(gameImageUrl, () => {
@@ -11,8 +11,12 @@ const template = (game, styles) => {
     if (gameEl) {
       gameEl.src = gameImageUrl;
       gameEl.alt = `Play ${game.name}!`;
-      setUIStatus(dom(`#game-${game.short}`), "visible");
     }
+
+    setUIStatus(
+      dom(`#game-${game.short}`),
+      state.active ? "active" : "visible"
+    );
   });
 
   return `

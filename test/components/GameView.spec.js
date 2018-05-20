@@ -1,5 +1,5 @@
 import Dispatcher from "../../src/utilities/Dispatcher";
-import GameView from "../../src/components/GameView/GameVIew";
+import GameView from "../../src/components/GameView/GameView";
 
 describe("Game View", () => {
   const fakeData = {

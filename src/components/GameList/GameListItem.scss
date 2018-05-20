@@ -7,7 +7,7 @@
   height: 80px;
   margin: $unit;
   overflow: hidden;
-  border-radius: $unit/2;
+  border-radius: $unit * 2;
   opacity: 0.5;
   transition: all 200ms;
   cursor: pointer;
@@ -20,10 +20,18 @@
   }
 
   &[data-ui-status="adding"] {
-    animation: spin 1.5s 7s forwards cubic-bezier(0.56, -0.35, 0.22, 1.5);
-    animation-delay: 20ms;
+    animation: spin 1.5s 20ms forwards cubic-bezier(0.56, -0.35, 0.22, 1.5);
     z-index: 99;
     opacity: 1;
+  }
+
+  &[data-ui-status="active"] {
+    animation: jump 0.7s 0ms forwards cubic-bezier(0.84, -0.54, 0.31, 1.19);
+    z-index: 99;
+    opacity: 1;
+    .gameImage {
+      opacity: 1;
+    }
   }
 
   [data-ui-has="fav"] & {
@@ -45,8 +53,6 @@
   }
 
   &:hover {
-    transform: translate(-2px, -2px);
-
     .gameImage {
       opacity: 1;
     }

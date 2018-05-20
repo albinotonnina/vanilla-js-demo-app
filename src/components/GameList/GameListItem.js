@@ -25,8 +25,18 @@ export default class {
     this.controlAnimation();
   }
 
+  state = {
+    active: false
+  };
+
   render() {
-    this.el.innerHTML = template(this.game, styles);
+    const { game, state } = this;
+
+    this.el.innerHTML = template({
+      game,
+      styles,
+      state
+    });
     onClick(this.el, this.openGameView);
 
     return this.el;
@@ -34,6 +44,7 @@ export default class {
 
   initEvents() {
     registerEvent("game:fav:toggle", this.setFavouriteAttribute);
+    registerEvent("game:show", this.onGameShow);
   }
 
   setFavouriteAttribute = ({ game, isAdd }) => {
@@ -45,10 +56,16 @@ export default class {
     }
   };
 
+  updateUIStatus = () =>
+    setUIStatus(this.el, this.state.active ? "active" : "visible");
+
+  onGameShow = ({ game }) => {
+    this.state.active = game.short === this.game.short;
+    this.updateUIStatus();
+  };
+
   controlAnimation = () => {
-    addEventListener(this.el, "animationend", () => {
-      setUIStatus(this.el, "visible");
-    });
+    addEventListener(this.el, "animationend", this.updateUIStatus);
   };
 
   openGameView = () => {

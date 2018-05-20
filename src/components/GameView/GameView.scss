@@ -42,6 +42,22 @@
 
 .imageWrapper {
   display: flex;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    pointer-events: none;
+    content: "";
+    background: url(/images/topRightStripe.svg) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position-x: right;
+    transform: scaleX(0.5) translateX($unit/4);
+    transform-origin: top right;
+  }
 }
 
 .image,

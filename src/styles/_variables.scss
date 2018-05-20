@@ -158,6 +158,18 @@ $max-app-width: 1280px;
   }
 }
 
+@keyframes jump {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(0.2em);
+  }
+  70% {
+    transform: translateY(-0.5em);
+  }
+}
+
 @keyframes loadspinner {
   0%,
   100% {
