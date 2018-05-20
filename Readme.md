@@ -1,6 +1,7 @@
 # Vanilla JS demo app
 
 [![Build Status](https://travis-ci.org/albinotonnina/vanilla-js-demo-app.svg?branch=master)](https://travis-ci.org/albinotonnina/vanilla-js-demo-app)
+[![codecov](https://codecov.io/gh/albinotonnina/vanilla-js-demo-app/branch/master/graph/badge.svg)](https://codecov.io/gh/albinotonnina/vanilla-js-demo-app)
 
 🚀 blazing fast, 🗜 tiny (bundle: 40 kb) simple imaginary app.
 
@@ -44,6 +45,7 @@ No dependencies but the tooling part is fairly similar to a real world FE app:
 * jest (test + coverage)
 * [lint-staged](https://github.com/okonet/lint-staged) (eslint + prettier on pre-commit)
 * [w3c-validate](https://www.npmjs.com/package/w3c-validate)
+* integration with travis ci, codecov and heroku.
 
 ## Notes
 

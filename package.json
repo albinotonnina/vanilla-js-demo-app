@@ -29,7 +29,6 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
-    "babel-plugin-transform-es2015-for-of": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
@@ -71,6 +70,7 @@
     "*.{js,json,scss,md}": ["prettier --no-config --write", "git add"]
   },
   "jest": {
+    "coverageDirectory": "./coverage/",
     "collectCoverage": true,
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
