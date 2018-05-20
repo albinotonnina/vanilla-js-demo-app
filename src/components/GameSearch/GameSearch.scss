@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.searchContainer {
+  padding: $unit;
+  display: flex;
+  align-items: center;
+
+  @include breakpoint-small() {
+    flex-direction: column;
+  }
+}
+
+.searchInput {
+  padding: $unit;
+  font-size: 1.6rem;
+  border: 1px solid $green;
+  border-radius: $unit * 2;
+  color: $green;
+}
+
+.btnWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+  @include breakpoint-small() {
+    padding-bottom: $unit * 2;
+  }
+}
+
+.heroBtn {
+  @include breakpoint-small() {
+    @include smallHero();
+  }
+
+  @include breakpoint-medium() {
+    @include heroBtn();
+  }
+
+  @include breakpoint-large() {
+    @include heroBtn();
+  }
+
+  margin-right: $unit * 2;
+}

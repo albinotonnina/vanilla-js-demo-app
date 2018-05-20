@@ -1,0 +1,134 @@
+@import "../../styles/variables";
+
+.container {
+  & > * {
+    transition: opacity 500ms;
+    opacity: 0;
+  }
+  height: 100%;
+  position: relative;
+  display: flex;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 50%;
+    color: $white;
+    font-size: 10px;
+    margin: 100px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    text-indent: -9999em;
+    animation: loadspinner 1.3s infinite linear;
+    transform: translateZ(0);
+  }
+
+  @include breakpoint-small() {
+    flex-direction: column;
+  }
+
+  &[data-ui-status] {
+    & > * {
+      opacity: 1;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.imageWrapper {
+  display: flex;
+}
+
+.image,
+.screenshot {
+  flex: 0 1 auto;
+  height: auto;
+  min-width: 0; /* for Firefox and future Chrome etc. */
+  max-height: $game-view-height;
+  display: block;
+}
+
+.gameDataContainer {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+
+  > * {
+    margin: 0 $unit;
+  }
+
+  @include breakpoint-small() {
+    position: absolute;
+    bottom: -$unit * 2;
+    width: 100%;
+    justify-content: center;
+  }
+
+  @include breakpoint-medium() {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: $unit * 4;
+    > * {
+      margin: $unit 0;
+    }
+  }
+
+  @include breakpoint-large() {
+    justify-content: space-around;
+    padding-left: $unit * 4;
+  }
+
+  > * {
+    flex: 0 1 auto;
+  }
+}
+
+.heroBtn {
+  @include breakpoint-small() {
+    @include smallHero(0.6);
+  }
+
+  @include breakpoint-medium() {
+    @include smallHero(0.7);
+  }
+
+  @include breakpoint-large() {
+    @include smallHero(1);
+  }
+}
+
+.closeBtnWrapper {
+  flex: 1 1 auto;
+  text-align: right;
+  margin-top: $unit * 3;
+  padding: $unit;
+
+  @include breakpoint-small() {
+    position: absolute;
+    right: $unit * 2;
+    background: $orange;
+    border-radius: 50%;
+  }
+}
+
+.closeViewBtn {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  transition: opacity 200ms;
+
+  @include breakpoint-small() {
+    width: 36px;
+    height: 32px;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
